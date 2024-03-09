@@ -1,5 +1,5 @@
 import { base100Map } from "./types/Base100System";
-export { numberToBase100, base100ToNumber } from './lib/operations';
+export * from './lib/operations';
 
 
 // export function numberToBase100(number: number): string {

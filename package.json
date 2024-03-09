@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec 'src/**/*.test.ts'"
+    "test": "tsc ./tests/checkConversion.ts && node ./tests/checkConversion.js"
   },
   "keywords": [
     "base100",
