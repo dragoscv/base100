@@ -1,13 +1,6 @@
-import { numberToBase100, base100ToNumber } from '../dist/lib/operations'
-
-describe('Check conversion', () => {
-    it('should convert a number to base 100', () => {
-        const result = numberToBase100(100)
-        expect(result).toEqual('1.00')
-    })
-
-    it('should convert a base 100 to a number', () => {
-        const result = base100ToNumber('1.00')
-        expect(result).toEqual(100)
-    })
-})
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var src_1 = require("../src");
+var number = 89;
+var base100 = (0, src_1.numberToBase100)(number);
+console.log(base100);

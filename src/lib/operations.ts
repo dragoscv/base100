@@ -13,3 +13,4 @@ export function base100ToNumber(base100: string): number | undefined {
     }
     return undefined;
 }
+

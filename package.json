@@ -1,15 +1,17 @@
 {
   "name": "base100",
   "displayName": "Base100",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "This library provides a simple way to do math operations in base 100",
   "homepage": "https://github.com/dragoscv/base100#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec 'src/**/*.test.ts'"
   },
   "keywords": [
     "base100",
@@ -60,6 +62,11 @@
   "repository": "github:dragoscv/base100",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "ts-node": "^10.9.2"
   }
 }
