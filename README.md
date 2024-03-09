@@ -16,3 +16,7 @@ The Base100 Math Library is a collection of mathematical functions and utilities
 ## Installation
 
 You can install the Base100 Math Library using [npm](https://www.npmjs.com/):
+
+```
+npm install base100
+```
